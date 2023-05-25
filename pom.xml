@@ -21,9 +21,11 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://18.138.81.149:9000/</sonar.host.url>
+		<sonar.host.url>http://13.233.163.6:9980/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>passw0rd</sonar.password> 
+		
+		<!-- <sonar.login>squ_d751b9ae94453b71b273cc6b20d82e47b20c2429</sonar.login> -->
+		<sonar.password>1234</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -33,7 +35,7 @@
 		
 		<dependency>
 			<groupId>org.json</groupId>
-			<artifactId>json</artifactId>
+			<artifactId>json</artifactId> 
 			<version>20160212</version>
 		</dependency>
 		
@@ -97,14 +99,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://54.255.174.111:8081/repository/flipkart-release/</url>
+	      <name>Mithun Technologiess Releases Nexus Repository</name>
+	      <url>http://65.0.94.110:8081/repository/wallmat-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.255.174.111:8081/repository/flipkart-snapshot/</url>
+	      <url>http://65.0.94.110:8081/repository/wallmat-shapshort/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>

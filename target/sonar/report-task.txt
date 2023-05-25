@@ -1,0 +1,6 @@
+projectKey=com.mt:maven-web-application
+serverUrl=http://13.233.163.6:9980
+serverVersion=9.6.1.59531
+dashboardUrl=http://13.233.163.6:9980/dashboard?id=com.mt%3Amaven-web-application
+ceTaskId=AYg9rh-I9ISOlaH0S2rg
+ceTaskUrl=http://13.233.163.6:9980/api/ce/task?id=AYg9rh-I9ISOlaH0S2rg
