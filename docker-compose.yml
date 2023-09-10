@@ -1,7 +1,7 @@
 version: '3.1'
 services:
   springboot:
-    image: rukmangadhan94/Krishnan@111:TAG
+    image: rukmangadhan94/dockercomposefile:TAG
     restart: always
     ports:
     - 7190:8080
