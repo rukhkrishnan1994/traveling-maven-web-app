@@ -1,10 +1,10 @@
 version: '3.1'
 services:
   springboot:
-    image: ragavandockeraccount/dockercomposefile:TAG
+    image: rukmangadhan94/Krishnan@111:TAG
     restart: always
     ports:
-    - 9000:8080
+    - 7190:8080
     networks:
     - mavenappbridge
 networks:
